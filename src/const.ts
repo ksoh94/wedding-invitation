@@ -20,8 +20,9 @@ export const WEDDING_DATE = dayjs.tz("2026-12-19 10:00", "Asia/Seoul")
  * 예식 일시 포맷
  * 분이 0이면 분을 생략하고, 그 외에는 표시합니다.
  * 예: 2024년 8월 24일 토요일 오후 1시
- */
-export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
+ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
+*/
+ export const WEDDING_DATE_FORMAT = `2026년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
 
 /**
  * 예식 당월 휴무일 (달력 표시용)
@@ -53,7 +54,7 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 /**
  * 지도 서비스(네이버, 카카오)에 사용할 좌표 [경도, 위도]
  */
-export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
+export const WEDDING_HALL_POSITION = [37.4200988, 126.8892204]
 
 /**
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
@@ -87,7 +88,7 @@ export const BRIDE_INFO = [
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
-    phone: "010-0000-0000",
+    phone: "010-6264-1787",
     account: "하나은행 00000000000",
   },
   {
@@ -113,18 +114,18 @@ export const GROOM_INFO = [
     relation: "신랑",
     name: GROOM_FULLNAME,
     phone: "010-9377-9162",
-    account: "우리은행 00000000000000",
+    account: "우리은행 1002-459-508831",
   },
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    phone: "010-3362-9162",
+    account: "새마을금고 3827-10-135271-6",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    phone: "010-5920-9160",
+    account: "신한은행 110-458-677869",
   },
 ]
