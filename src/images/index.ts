@@ -1,4 +1,5 @@
-import coverImage from "./cover.png"
+import coverImage from "./TEST001.png"
+import image13 from "./cover-Origin.png"
 import image1 from "./image1.png"
 import image2 from "./image2.png"
 import image3 from "./image3.png"
@@ -11,6 +12,8 @@ import image9 from "./image9.png"
 import image10 from "./image10.png"
 import image11 from "./image11.png"
 import image12 from "./image12.png"
+import image12 from "./image12.png"
+
 
 /**
  * 메인 커버 이미지
@@ -21,6 +24,7 @@ export const COVER_IMAGE = coverImage
  * 갤러리에 표시될 이미지 목록
  */
 export const GALLERY_IMAGES = [
+  imagecover-Origin,
   image1,
   image2,
   image3,
@@ -33,4 +37,5 @@ export const GALLERY_IMAGES = [
   image10,
   image11,
   image12,
+
 ]
