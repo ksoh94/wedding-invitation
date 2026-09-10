@@ -23,7 +23,7 @@ export const COVER_IMAGE = coverImage
 export const GALLERY_IMAGES = [
 /** imagecover-Origin,
  */
-  cover,
+  imagecover-Origin,
   image1,
   image2,
   image3,
