@@ -21,7 +21,8 @@ export const COVER_IMAGE = coverImage
  * 갤러리에 표시될 이미지 목록
  */
 export const GALLERY_IMAGES = [
-  imagecover-Origin,
+/** imagecover-Origin,
+ */
   image1,
   image2,
   image3,
